@@ -1,4 +1,4 @@
-# Clean UP Code
+# Code used for Debugging Techniques
 
 const fs = require('fs');
 const requestHandler = (req, res) => {
@@ -47,3 +47,20 @@ const requestHandler = (req, res) => {
 
 exports.handler = requestHandler;
 exports.someText = 'Some hard coded text';
+
+# Json code used for debugging
+{
+    "name": "learning-node",
+    "version": "20.0.0" ,
+    "description": "Learning and practising",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node .js"
+    },
+    "author": "Manasi Gautam",
+    "license": "ISC"
+}
+
+
+
